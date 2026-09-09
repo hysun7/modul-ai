@@ -1,0 +1,61 @@
+site_name: Modul Kecerdasan Buatan
+site_description: Modul Praktikum Mata Kuliah Kecerdasan Buatan
+site_author: Dosen Pengampu
+
+theme:
+  name: material
+  language: id
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Mode gelap
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Mode terang
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Beranda: index.md
+  - "Modul 01: Menggunakan Google Colab": modul01.md
+  - "Modul 02: Membaca Data": modul02.md
+  - "Modul 03: Membuat Model Machine Learning Menggunakan Random Forest": modul03.md
+  - "Modul 04: Membuat Model Machine Learning Menggunakan Random Forest dengan Data Numerikal dan Kategorikal": modul04.md
+  - "Modul 05: Stratified K-Fold Cross Validation": modul05.md
+  - "Modul 06: Stratified K-Fold Cross Validation dengan K-Nearest Neighbors (KNN)": modul06.md
+  - "Modul 07: Stratified K-Fold Cross Validation dengan Support Vector Machine (SVM)": modul07.md
+  - "Modul 08: Stratified K-Fold Cross Validation dengan Neural Network (MLP)": modul08.md
+  - "Modul 09: Klasifikasi Gambar Dataset MNIST dengan Multi Layer Perceptron (MLP)": modul09.md
+  - "Modul 10: Klasifikasi Gambar Dataset MNIST dengan Convolutional Neural Network (CNN)": modul10.md
+  - "Modul 11: Pengolahan Citra Digital": modul11.md
+  - "Modul 12: Klasifikasi Citra dengan VGG16 dan 5-Fold Cross Validation": modul12.md
