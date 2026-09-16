@@ -48,13 +48,13 @@ markdown_extensions:
 nav:
   - Beranda: index.md
   - "Modul 01: Google Colab dan Membaca Data": modul01.md
-  - "Modul 02: Membuat Model Machine Learning Menggunakan Random Forest": modul02.md
-  - "Modul 03: Membuat Model Machine Learning Menggunakan Random Forest dengan Data Numerikal dan Kategorikal": modul03.md
-  - "Modul 04: Stratified K-Fold Cross Validation": modul04.md
-  - "Modul 05: Stratified K-Fold Cross Validation dengan K-Nearest Neighbors (KNN)": modul05.md
-  - "Modul 06: Stratified K-Fold Cross Validation dengan Support Vector Machine (SVM)": modul06.md
-  - "Modul 07: Stratified K-Fold Cross Validation dengan Neural Network (MLP)": modul07.md
-  - "Modul 08: Klasifikasi Gambar Dataset MNIST dengan Convolutional Neural Network (CNN)": modul08.md
-  - "Modul 09: Pengolahan Citra Digital": modul09.md
-  - "Modul 10: Klasifikasi Citra dengan VGG16 dan 5-Fold Cross Validation": modul10.md
-  - "Modul 11: Membangun chatbot sederhana": modul11.md
+  #- "Modul 02: Membuat Model Machine Learning Menggunakan Random Forest": modul02.md
+  #- "Modul 03: Membuat Model Machine Learning Menggunakan Random Forest dengan Data Numerikal dan Kategorikal": modul03.md
+  #- "Modul 04: Stratified K-Fold Cross Validation": modul04.md
+  #- "Modul 05: Stratified K-Fold Cross Validation dengan K-Nearest Neighbors (KNN)": modul05.md
+  #- "Modul 06: Stratified K-Fold Cross Validation dengan Support Vector Machine (SVM)": modul06.md
+  #- "Modul 07: Stratified K-Fold Cross Validation dengan Neural Network (MLP)": modul07.md
+  #- "Modul 08: Klasifikasi Gambar Dataset MNIST dengan Convolutional Neural Network (CNN)": modul08.md
+  #- "Modul 09: Pengolahan Citra Digital": modul09.md
+  #- "Modul 10: Klasifikasi Citra dengan VGG16 dan 5-Fold Cross Validation": modul10.md
+  #- "Modul 11: Membangun chatbot sederhana": modul11.md
