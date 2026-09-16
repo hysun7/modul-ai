@@ -46,7 +46,7 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - Beranda: index.md
+  #- Beranda: index.md
   - "Modul 01: Google Colab dan Membaca Data": modul01.md
   #- "Modul 02: Membuat Model Machine Learning Menggunakan Random Forest": modul02.md
   #- "Modul 03: Membuat Model Machine Learning Menggunakan Random Forest dengan Data Numerikal dan Kategorikal": modul03.md
