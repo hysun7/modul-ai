@@ -21,7 +21,7 @@ Sebelum memulai praktikum, siapkan:
 
 Dataset dapat diunduh melalui tautan berikut:
 
-[📥 Download diabetes.csv](data/diabetes.csv)
+[📥 Download diabetes.csv](data/diabetes_prediction_dataset.csv)
 
 !!! tip "Persiapan Dataset"
     Download dataset kemudian simpan pada folder `praktikum_ai`
