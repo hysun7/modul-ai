@@ -37,7 +37,7 @@ Dataset dapat diunduh melalui tautan berikut:
 !!! note "Prasyarat"
     Pada Modul 02 kita hanya menggunakan beberapa fitur numerik.
 
-    Pada modul ini kita akan menggunakan **data numerik dan kategorikal secara bersamaan** untuk membuat model Machine Learning.
+    Pada modul ini kita akan menggunakan "data numerik dan kategorikal secara bersamaan" untuk membuat model Machine Learning.
 
 ---
 
