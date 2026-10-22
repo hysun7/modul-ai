@@ -201,8 +201,6 @@ Periksa distribusi target.
 
 ![Distribusi target](assets/modul05/05_distribution.png)
 
-!!! question "Coba Amati"
-    Apakah jumlah data `diabetes = 0` dan `diabetes = 1` seimbang?
 
 ---
 
@@ -309,8 +307,6 @@ Tampilkan confusion matrix setiap fold.
 
 ![Confusion Matrix](assets/modul05/13_confmat.png)
 
-!!! question "Coba Amati"
-    Pada fold mana jumlah False Negative paling banyak?
 
 ---
 
@@ -346,8 +342,6 @@ Modul 04 menggunakan Random Forest, sedangkan Modul 05 menggunakan KNN.
 | Parameter yang dipelajari | Jumlah tree, kedalaman, dll. | Nilai `k`, distance |
 | Prediksi | Voting antar-tree | Voting tetangga |
 
-!!! question "Coba Analisis"
-    Apakah model yang lebih sederhana selalu memberikan performa yang lebih rendah?
 
 ---
 
@@ -382,9 +376,112 @@ Konsep penting:
 
 ---
 
+
+## Latihan Praktikum
+
+Jawab pertanyaan berikut berdasarkan hasil yang diperoleh selama mengikuti langkah-langkah praktikum.
+
+!!! note "Dikumpulkan"
+    **Latihan Praktikum dan Tugas Praktikum sama-sama dikumpulkan.**
+
+    Latihan Praktikum dikerjakan berdasarkan hasil praktikum utama di kelas.
+
+### 1. Distribusi Target
+
+Berdasarkan hasil:
+
+`y.value_counts()` dan `y.value_counts(normalize=True)`
+
+jawab:
+
+1. Apakah jumlah data `diabetes = 0` dan `diabetes = 1` seimbang?
+2. Kelas mana yang memiliki jumlah data lebih banyak?
+3. Mengapa kondisi tersebut menjadi alasan penggunaan Stratified K-Fold?
+
+---
+
+### 2. Hasil Antar-Fold
+
+Perhatikan hasil accuracy, precision, dan recall pada lima fold.
+
+Jawab:
+
+1. Apakah nilai ketiga metric sama pada setiap fold?
+2. Fold mana yang menghasilkan accuracy tertinggi?
+3. Fold mana yang menghasilkan recall tertinggi?
+
+Tuliskan hasilnya pada tabel berikut.
+
+| Fold | Accuracy | Precision | Recall |
+|---:|---:|---:|---:|
+| 1 | ... | ... | ... |
+| 2 | ... | ... | ... |
+| 3 | ... | ... | ... |
+| 4 | ... | ... | ... |
+| 5 | ... | ... | ... |
+
+---
+
+### 3. Rata-rata dan Konsistensi Model
+
+Catat hasil berikut:
+
+| Metric | Nilai |
+|---|---:|
+| Average Accuracy | ... |
+| Average Precision | ... |
+| Average Recall | ... |
+| Std. Accuracy | ... |
+
+Jawab:
+
+1. Metric mana yang memiliki nilai rata-rata paling tinggi?
+2. Metric mana yang memiliki nilai rata-rata paling rendah?
+3. Apa arti nilai standar deviasi accuracy yang diperoleh?
+
+---
+
+### 4. Confusion Matrix
+
+Pilih **satu fold** dari hasil praktikum.
+
+Catat nilai:
+
+- True Positive (TP)
+- True Negative (TN)
+- False Positive (FP)
+- False Negative (FN)
+
+Kemudian jawab:
+
+1. Berapa jumlah False Negative pada fold tersebut?
+2. Apa arti False Negative pada kasus klasifikasi diabetes?
+
+---
+
+### 5. Pemahaman KNN
+
+Jawab secara singkat:
+
+1. Apa arti `k = 5` pada KNN?
+2. Mengapa feature numerik perlu di-scaling sebelum digunakan oleh KNN?
+3. Mengapa `StandardScaler` ditempatkan di dalam Pipeline?
+4. Apa perbedaan utama cara kerja KNN dengan Random Forest yang digunakan pada Modul 04?
+
+---
+
 # Tugas Praktikum
 
+Tugas berikut merupakan **eksperimen lanjutan** dari praktikum utama.
+
 Kerjakan menggunakan Google Colab dan dataset `diabetes.csv`.
+
+!!! info "Pengerjaan Tugas"
+    Tugas Praktikum mulai dikerjakan di kelas setelah Latihan Praktikum selesai.
+
+    Jika belum selesai pada waktu praktikum, tugas **boleh dilanjutkan di rumah**.
+
+    **Latihan Praktikum dan Tugas Praktikum dikumpulkan bersama dalam satu notebook.**
 
 ## 1. Membandingkan Nilai k
 
@@ -473,10 +570,22 @@ Tuliskan kesimpulan maksimal **4 kalimat** mengenai:
 
 ## Pengumpulan
 
+Yang dikumpulkan adalah:
+
+1. **Latihan Praktikum**
+2. **Tugas Praktikum**
+
+Keduanya dikerjakan dalam **satu Google Colab Notebook**.
+
 Simpan notebook dalam format `.ipynb`.
 
 Gunakan nama file:
 
 `NIM_Nama_Modul05.ipynb`
 
-Pastikan seluruh cell telah dijalankan dan output terlihat sebelum notebook dikumpulkan.
+Pastikan:
+
+- seluruh cell utama praktikum telah dijalankan,
+- jawaban Latihan Praktikum sudah dituliskan,
+- hasil eksperimen Tugas Praktikum terlihat,
+- kesimpulan sudah dituliskan sebelum notebook dikumpulkan.
