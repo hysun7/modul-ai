@@ -481,7 +481,7 @@ Kerjakan menggunakan Google Colab dan dataset `diabetes.csv`.
 
     Jika belum selesai pada waktu praktikum, tugas **boleh dilanjutkan di rumah**.
 
-    **Latihan Praktikum dan Tugas Praktikum dikumpulkan bersama dalam satu notebook.**
+    **Latihan Praktikum dan Tugas Praktikum dikumpulkan dalam notebook yang berbeda.**
 
 ## 1. Membandingkan Nilai k
 
@@ -570,22 +570,43 @@ Tuliskan kesimpulan maksimal **4 kalimat** mengenai:
 
 ## Pengumpulan
 
-Yang dikumpulkan adalah:
+Yang dikumpulkan terdiri dari **dua notebook terpisah**.
 
-1. **Latihan Praktikum**
-2. **Tugas Praktikum**
+### 1. Notebook Latihan Praktikum
 
-Keduanya dikerjakan dalam **satu Google Colab Notebook**.
+Notebook ini berisi:
 
-Simpan notebook dalam format `.ipynb`.
+- langkah praktikum utama,
+- output hasil running,
+- jawaban seluruh bagian **Latihan Praktikum**.
 
 Gunakan nama file:
 
-`NIM_Nama_Modul05.ipynb`
+`NIM_Nama_Modul05_Latihan.ipynb`
 
-Pastikan:
+---
 
-- seluruh cell utama praktikum telah dijalankan,
-- jawaban Latihan Praktikum sudah dituliskan,
-- hasil eksperimen Tugas Praktikum terlihat,
-- kesimpulan sudah dituliskan sebelum notebook dikumpulkan.
+### 2. Notebook Tugas Praktikum
+
+Notebook ini berisi:
+
+- eksperimen pada bagian **Tugas Praktikum**,
+- hasil perbandingan,
+- tabel hasil,
+- kesimpulan.
+
+Gunakan nama file:
+
+`NIM_Nama_Modul05_Tugas.ipynb`
+
+!!! note "Catatan"
+    Tugas Praktikum mulai dikerjakan di kelas.
+
+    Jika belum selesai, pengerjaan dapat dilanjutkan di rumah.
+
+Pastikan sebelum dikumpulkan:
+
+- seluruh cell yang diperlukan sudah dijalankan,
+- output terlihat,
+- jawaban dan kesimpulan sudah dituliskan,
+- kedua notebook dikumpulkan sesuai tempat pengumpulan di LMS.
