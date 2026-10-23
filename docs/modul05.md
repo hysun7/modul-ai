@@ -381,9 +381,6 @@ Konsep penting:
 
 Jawab pertanyaan berikut berdasarkan hasil yang diperoleh selama mengikuti langkah-langkah praktikum.
 
-!!! note "Dikumpulkan"
-    **Latihan Praktikum dan Tugas Praktikum sama-sama dikumpulkan.**
-
     Latihan Praktikum dikerjakan berdasarkan hasil praktikum utama di kelas.
 
 ### 1. Distribusi Target
@@ -481,7 +478,6 @@ Kerjakan menggunakan Google Colab dan dataset `diabetes.csv`.
 
     Jika belum selesai pada waktu praktikum, tugas **boleh dilanjutkan di rumah**.
 
-    **Latihan Praktikum dan Tugas Praktikum dikumpulkan dalam notebook yang berbeda.**
 
 ## 1. Membandingkan Nilai k
 
@@ -570,8 +566,6 @@ Tuliskan kesimpulan maksimal **4 kalimat** mengenai:
 
 ## Pengumpulan
 
-Yang dikumpulkan terdiri dari **dua notebook terpisah**.
-
 ### 1. Notebook Latihan Praktikum
 
 Notebook ini berisi:
@@ -609,4 +603,3 @@ Pastikan sebelum dikumpulkan:
 - seluruh cell yang diperlukan sudah dijalankan,
 - output terlihat,
 - jawaban dan kesimpulan sudah dituliskan,
-- kedua notebook dikumpulkan sesuai tempat pengumpulan di LMS.
